@@ -35,7 +35,6 @@ const QuizQuestion = ({ picture, question, options, selectedValue, onValueChange
     );
 };
 
-
 const MyApp = () => {
     const [eagle, setEagle] = useState('');
     const [kingfisher, setKingfisher] = useState('');
